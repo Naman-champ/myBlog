@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    margin:0px;
+    background-color:beige;
+    padding-top: 800px;
+}
+.smallimage{
+    width: 175px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+#Welcome{
+    position: absolute;
+    height:800px;
+    background: linear-gradient(#d6f0b9 0%,#85bd46 100% );
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    opacity:0.83;
+}
+#Bio{
+  padding: 50px;
+text-align: center;
+font-size: 20px;
+}
+.Line{
+width:80px;
+height:7px;
+background-color: black;
+margin: 8px auto
+}
+p{
+font-family: cursive;
+font-size: 20px;
+}
+h1{
+font-size: 20px;
+}
+.menu{
+list-style: none;
+font-family: serif;
+position: absolute;
+right: 30px;
+}
+.Links{
+float: left;
+color:darkorange;
+padding-right:9px;
+padding-top:5px;
+padding-left:9px;
+padding-bottom:5px;
+font-family: sans-serif;
+font-size: 15px;
+}
+.Links:hover{
+background-color: dodgerblue;
+}
+#name{
+font-size: 30px;
+line-height: 1.2;
+font-family: 'Londrina Solid',cursive;
+}
+.parallax-inner{
+    display: table-cell;
+    position:relative;
+    text-align: center;
+    vertical-align: middle;
+}
